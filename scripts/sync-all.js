@@ -282,6 +282,12 @@ function updateReadme(toolCount, categoryCount) {
     readme = readme.replace(/工具列表[^)]*\(\d+\s*个\)/g, `工具列表 (${toolCount} 个)`);
     readme = readme.replace(/#工具列表-\d+-个/g, `#工具列表-${toolCount}-个`);
 
+    // 更新正文中所有 "X+ 个 [修饰词] 工具(集)?" 表述（如 "查看全部 1001+ 个工具"）
+    readme = readme.replace(
+      /\d+\+?\s*个(纯前端实用|纯前端开发者|纯前端|实用|开发者)?\s*工具(集)?/g,
+      (_m, modifier, suffix) => `${toolCount}+ 个${modifier || ''}工具${suffix || ''}`
+    );
+
     if (readme !== original) {
       fs.writeFileSync(README_MD, readme);
       console.log(`✅ README.md: ${toolCount}+ 工具`);

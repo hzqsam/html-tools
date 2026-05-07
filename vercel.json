@@ -88,6 +88,16 @@
       "source": "/tools/real-estate/rent-vs-buy",
       "destination": "/tools/realestate/rent-vs-buy-cn",
       "permanent": true
+    },
+    {
+      "source": "/tools/converter/morse-code",
+      "destination": "/tools/text/morse-code",
+      "permanent": true
+    },
+    {
+      "source": "/tools/business/depreciation",
+      "destination": "/tools/finance/depreciation",
+      "permanent": true
     }
   ]
 }

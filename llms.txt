@@ -1,6 +1,6 @@
 # WebUtils
 
-> WebUtils 是一个纯前端开发者工具集，包含 1001+ 个实用工具。每个工具都是独立的 HTML 文件，内联 CSS/JS，无需构建，可离线使用。所有数据处理都在浏览器端完成，不上传服务器，保护用户隐私。
+> WebUtils 是一个纯前端开发者工具集，包含 999+ 个实用工具。每个工具都是独立的 HTML 文件，内联 CSS/JS，无需构建，可离线使用。所有数据处理都在浏览器端完成，不上传服务器，保护用户隐私。
 
 WebUtils 提供开发者日常工作中常用的各类工具：JSON/YAML/XML 格式化与转换、Base64/URL/Unicode 编解码、时间戳与时区转换、二维码生成、图片压缩、正则表达式测试、哈希计算等。
 
@@ -97,9 +97,9 @@ WebUtils 提供开发者日常工作中常用的各类工具：JSON/YAML/XML 格
 - [JSON ⇄ YAML 转换](https://tools.realtime-ai.chat/tools/converter/json-yaml.html): JSON 和 YAML 双向转换，支持格式化和压缩
 - [任意进制转换器](https://tools.realtime-ai.chat/tools/converter/number-base.html): 任意进制转换器，多格式互转，转换器，浏览器本地运行无需上传
 - [数字进制转换器](https://tools.realtime-ai.chat/tools/converter/number-base-converter.html): 数字进制转换
-- [摩尔斯电码转换器](https://tools.realtime-ai.chat/tools/converter/morse-code.html): 文本与摩尔斯电码互转，支持音频播放
 - [二进制翻译器](https://tools.realtime-ai.chat/tools/converter/binary-translator.html): 文本与二进制、十进制、十六进制、八进制互转
 - [角度单位转换器](https://tools.realtime-ai.chat/tools/converter/angle-converter.html): 度、弧度、梯度等角度单位互转
+- [CSV ⇄ JSON 转换](https://tools.realtime-ai.chat/tools/converter/csv-json.html): CSV 和 JSON 双向转换，支持表格预览
 
 ## 提取器
 
@@ -222,8 +222,8 @@ WebUtils 提供开发者日常工作中常用的各类工具：JSON/YAML/XML 格
 - [盈亏平衡分析](https://tools.realtime-ai.chat/tools/business/breakeven.html): 计算盈亏平衡点
 - [ROI 计算器](https://tools.realtime-ai.chat/tools/business/roi.html): 计算投资回报率
 - [净现值NPV计算器](https://tools.realtime-ai.chat/tools/business/npv.html): 计算投资项目的净现值
-- [固定资产折旧计算器](https://tools.realtime-ai.chat/tools/business/depreciation.html): 计算固定资产折旧
 - [库存周转计算器](https://tools.realtime-ai.chat/tools/business/inventory.html): 计算库存周转率和周转天数
+- [应收账款账龄分析](https://tools.realtime-ai.chat/tools/business/receivables.html): 分析应收账款账龄结构
 
 ## 加密货币
 
@@ -326,4 +326,4 @@ WebUtils 提供开发者日常工作中常用的各类工具：JSON/YAML/XML 格
 ## Optional
 
 - [GitHub 仓库](https://github.com/chicogong/html-tools): 源代码、Issue 反馈、贡献指南
-- [完整工具列表](https://tools.realtime-ai.chat/): 首页查看全部 1001+ 工具
+- [完整工具列表](https://tools.realtime-ai.chat/): 首页查看全部 999+ 工具

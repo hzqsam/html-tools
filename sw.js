@@ -1,5 +1,4 @@
 // Service Worker for WebUtils PWA
-// Updated: 1001+ tools, externalized assets
 const CACHE_NAME = 'webutils-v3';
 const OFFLINE_URL = './offline.html';
 
